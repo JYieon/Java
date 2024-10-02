@@ -3,15 +3,11 @@ package while_;
 public class Ex01 {
 	public static void main(String[] args) {
 		
-		for(int i = 0; i <= 5; i++) {
-			System.out.println(i);
+		for(int i = 2; i < 10; i++){ 
+			System.out.println(i+"단");
+			for(int j = 1; j < 10; j++){
+		    	System.out.println(i + " X " + j + " = " + (i*j));
+		    }
 		}
-		
-		int i = 0;
-		while(i <= 5) {
-			System.out.println(i);
-			i++;
-		}
-		System.out.println("i : " + i); //i가 6이라 조건식을 빠져나온 것을 알 수 있다.
 	}
 }
