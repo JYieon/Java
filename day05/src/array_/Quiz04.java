@@ -65,7 +65,7 @@ public class Quiz04 {
 						}//id가 동일하지 않으면 다시 for문 반복 = 빈자리 찾기
 						else if(i == lid) //i에 값이 있는데 마지막 인덱스였다면
 							System.out.println("더 이상 저장할 공간이 없습니다.");
-					}else if(id[i] == null) {//i번째 index에 값이 없다면 새로운 id, pwd 저장
+					}else{//i번째 index에 값이 없다면 새로운 id, pwd 저장
 						id[i] = uid;
 						pwd[i] = upw;
 						System.out.println("[회원가입이 완료되었습니다]");
