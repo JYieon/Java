@@ -11,7 +11,7 @@ public class Ex01 {
 		System.out.println("str : " + str3);
 		System.out.println("str : " + str4);
 		
-		str4 = "Kim"; // kim, KIM
+		str4 = "kim"; // kim, KIM
 		System.out.println(str4.equals("kim")); // 사용자가 입력한 값마다 if를 만들 수는 없음 -> 전부다 소문자 or 대문자로 만들어 비교
 		
 		System.out.println(str4.toUpperCase());
